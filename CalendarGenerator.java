@@ -35,7 +35,7 @@ public class CalendarGenerator {
         return d0;
     }
 
-    // Method to display the calendar
+    // Method to display calendar
     public static void displayCalendar(int month, int year) {
         System.out.println("\n" + getMonthName(month) + " " + year);
         System.out.println(" Sun Mon Tue Wed Thu Fri Sat");
