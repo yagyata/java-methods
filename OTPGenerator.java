@@ -5,7 +5,7 @@ public class OTPGenerator {
         return 100000 + (int) (Math.random() * 900000);
     }
 
-    // Method to check if generated OTPs are unique
+    // Method to check if generated OTP are unique
     public static boolean areOTPsUnique(int[] otps) {
         for (int i = 0; i < otps.length; i++) {
             for (int j = i + 1; j < otps.length; j++) {
